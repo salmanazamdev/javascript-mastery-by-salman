@@ -1,6 +1,6 @@
 # 🚀 JavaScript Mastery by Salman
 
-Welcome to my personal JavaScript practice repository! This is where I’m documenting my learning journey from **basics to advanced** — one `.js` file at a time. Every file in this repo contains my **practice questions**, **self-written solutions**, and **mini experiments** that I run using `Node.js`.
+Welcome to my personal JavaScript practice repository! This is where I’m documenting my learning journey from **basics to advanced** ....> one `.js` file at a time. Every file in this repo contains my **practice questions**, **self-written solutions**, and **mini experiments** that I run using `Node.js`.
 
 ---
 
@@ -14,7 +14,7 @@ Each file you see here represents a section I’ve learned, broken down with rea
 
 ## 📁 File Structure
 
-> No folders yet – just simple, clean `.js` files for now:
+> No folders yet : just simple, clean `.js` files for now:
 
 | File | Topics Covered |
 |------|----------------|
