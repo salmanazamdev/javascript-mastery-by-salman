@@ -27,7 +27,7 @@ if (num > 0) {
 }
 
 
-//4: Checking Working of Loose or Strict Equality
+//4: Checking Working of Loose or Strict Equality (true false)
 let a = 5
 let b = '5'
 console.log(a == b)  // Loose equality 
@@ -40,12 +40,8 @@ let discount = 20
 let discountedPrice = price - (price * discount / 100)
 console.log(`Discounted Price: ${discountedPrice}`)
 
-//6: Const Reassignment Mistake
-const country = "Pakistan"
-country = "India" // This will cause an error because constants cannot be reassigned
 
-
-//7: Login logic using and operator
+//6: Login logic using and operator
 let email = "user@example.com"
 let password = "password123"
 
@@ -56,14 +52,20 @@ let password = "password123"
 }
 
 
-//8: Battery level warning
+//7: Battery level warning
 let batterylevel = 10
 if (batterylevel < 15) {
     console.log("Low battery, please charge karlo")
 }
 
-//9: User online status simulation (boolean)
+//8: User online status simulation (boolean)
 let isOnline = false;
         isOnline = true; // Simulating user login
 console.log("User is online:", isOnline);
+
+
+//9: Const Reassignment Mistake
+const country = "Pakistan"
+country = "India" // This will cause an error because constants cannot be reassigned
+
 
