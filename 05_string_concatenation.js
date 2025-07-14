@@ -44,7 +44,7 @@ let combined = react + " " + native + " is awesome.";
 console.log(combined);
 
 
-// Q7: Create a sentence using template literals with a number variable: `You have 5 new messages.`
+// Q7: Create a sentence using template literals with a number variable : `You have 5 new messages.`
 let newMessages = 5;
 let messageSentence = `You have ${newMessages} new messages.`;
 console.log(messageSentence);
