@@ -38,6 +38,9 @@ console.log(extractedWord);
 
 
 // Q7: Get only the word "Programming" from the string using negative index with slice().
+// let str3 = "JavaScript Programming"; (already declared above)
+let programmingWord = str3.slice(-11); // or str3.substring(11);
+console.log(programmingWord);
 
 
 // Q8: Split "JavaScript Programming" into an array of words.
