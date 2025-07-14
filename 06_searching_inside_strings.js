@@ -32,6 +32,9 @@ console.log(trailingTrimmedStr);
 
 
 // Q6: Extract the word "JavaScript" from the string using slice() or substring().
+let str3 = "JavaScript Programming";
+let extractedWord = str3.slice(0, 10); // or str3.substring(0, 10);
+console.log(extractedWord);
 
 
 // Q7: Get only the word "Programming" from the string using negative index with slice().
