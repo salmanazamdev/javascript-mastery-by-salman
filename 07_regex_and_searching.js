@@ -20,6 +20,9 @@ console.log(includesFox);
 
 
 // Q4: Check if the string starts with the word "The".
+// let str1 = "The quick brown fox jumps over the lazy dog"; (already declared above)
+let startsWithThe = str1.startsWith("The");
+console.log(startsWithThe);
 
 
 // Q5: Check if the string ends with the word "dog".
