@@ -57,3 +57,6 @@ console.log(replacedNumbers);
 
 
 // Q10: Split the string "The quick brown fox" by any amount of whitespace using regex.
+let str2 = "The quick brown fox";
+let splitWords = str2.split(/\s+/);
+console.log(splitWords);
