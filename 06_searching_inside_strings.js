@@ -14,6 +14,9 @@ console.log(upperCaseStr);
 
 
 // Q3: Trim all white spaces from both ends of the string "   Hello World   ".
+let str2 = "   Hello World   ";
+let trimmedStr = str2.trim();
+console.log(trimmedStr);
 
 
 // Q4: Remove only the leading spaces from "   Hello World   ".
