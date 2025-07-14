@@ -9,11 +9,17 @@ console.log(fullName);
 
 
 // Q2: Now use template literals to combine firstName and lastName with a space in between.
+// let firstName = "John";
+// let lastName = "Doe"; (already declared above)
 let fullNameTemplate = `${firstName} ${lastName}`;
 console.log(fullNameTemplate);
 
 
 // Q3: Create a greeting like "Hello, John Doe! Welcome." using template literals.
+// let firstName = "John";
+// let lastName = "Doe"; (already declared above)
+let greeting = `Hello, ${firstName} ${lastName}! Welcome.`;
+console.log(greeting);
 
 
 // Q4: Write a sentence that includes a variable `language = "JavaScript"` in: "I'm learning JavaScript." (use backticks)
