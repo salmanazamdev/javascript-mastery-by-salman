@@ -8,7 +8,6 @@ console.log("Lowercase:", lowerCaseString);
 
 
 // Q2: Extract the last 3 characters from the string "JavaScript" using slice().
-
 let isString = 'Javascript';
 let lastThreeChar = isString.slice(-3); // slice works in a way that it takes the last 3 characters from the string
 // Alternatively, you can use substring(isString.length - 3) to achieve the same result
