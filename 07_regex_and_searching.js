@@ -2,6 +2,9 @@
 
 
 // Q1: Find the index of the word "quick" in the string "The quick brown fox jumps over the lazy dog".
+let str1 = "The quick brown fox jumps over the lazy dog";
+let quickIndex = str1.indexOf("quick");
+console.log(quickIndex);
 
 
 // Q2: Find the last index of the word "the" (case sensitive) in the same string.
