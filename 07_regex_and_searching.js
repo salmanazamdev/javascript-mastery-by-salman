@@ -8,6 +8,9 @@ console.log(quickIndex);
 
 
 // Q2: Find the last index of the word "the" (case sensitive) in the same string.
+// let str1 = "The quick brown fox jumps over the lazy dog"; (already declared above)
+let lastTheIndex = str1.lastIndexOf("the");
+console.log(lastTheIndex);
 
 
 // Q3: Check if the string includes the word "fox".
