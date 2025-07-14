@@ -23,6 +23,9 @@ console.log(greeting);
 
 
 // Q4: Write a sentence that includes a variable `language = "JavaScript"` in: "I'm learning JavaScript." (use backticks)
+let language = "JavaScript";
+let learningSentence = `I'm learning ${language}.`;
+console.log(learningSentence);
 
 
 // Q5: Create a string that says:
