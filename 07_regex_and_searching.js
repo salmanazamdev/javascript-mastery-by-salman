@@ -45,6 +45,9 @@ console.log(email);
 
 
 // Q8: Extract the phone number (123-456-7890) from the same string using regex.
+let phoneRegex = /\d{3}-\d{3}-\d{4}/;
+let phoneNumber = contactStr.match(phoneRegex)[0]; // contactStr already declared above
+console.log(phoneNumber);
 
 
 // Q9: Replace all numbers in the string with "XXX" using regex.
