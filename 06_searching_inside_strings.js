@@ -2,9 +2,6 @@
 
 
 // Q1: Convert the string "JavaScript Programming" to all lowercase.
-let str1 = "JavaScript Programming";
-let lowerCaseStr = str1.toLowerCase();
-console.log(lowerCaseStr);
 
 
 // Q2: Convert the same string to all uppercase.
