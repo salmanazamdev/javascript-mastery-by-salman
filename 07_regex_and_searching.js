@@ -14,6 +14,9 @@ console.log(lastTheIndex);
 
 
 // Q3: Check if the string includes the word "fox".
+// let str1 = "The quick brown fox jumps over the lazy dog"; (already declared above)
+let includesFox = str1.includes("fox");
+console.log(includesFox);
 
 
 // Q4: Check if the string starts with the word "The".
