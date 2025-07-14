@@ -57,6 +57,9 @@ console.log(darkModeSentence);
 
 
 // Q9: Combine a string and a number using +, like "Total score: 95"
+let score = 95;
+let totalScore = "Total score: " + score;
+console.log(totalScore);
 
 
 // Q10: Use backticks to create a multi-line string that looks like:
