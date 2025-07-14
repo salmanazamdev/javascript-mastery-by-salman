@@ -66,3 +66,7 @@ console.log(totalScore);
 // Line 1
 // Line 2
 // Line 3
+let multiLineString = `Line 1
+Line 2
+Line 3`;
+console.log(multiLineString);
