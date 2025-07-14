@@ -45,6 +45,9 @@ console.log(combined);
 
 
 // Q7: Create a sentence using template literals with a number variable: `You have 5 new messages.`
+let newMessages = 5;
+let messageSentence = `You have ${newMessages} new messages.`;
+console.log(messageSentence);
 
 
 // Q8: Make a sentence with a boolean value like: `Dark mode is true`
