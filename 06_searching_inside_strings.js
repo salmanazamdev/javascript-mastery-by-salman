@@ -50,6 +50,9 @@ console.log(wordsArray);
 
 
 // Q9: Join that array into a single string separated by hyphens.
+// let wordsArray = ["JavaScript", "Programming"]; // (already declared above)
+let joinedString = wordsArray.join("-");
+console.log(joinedString);
 
 
 // Q10: Check if the string "The quick brown fox jumps over the lazy dog" includes the word "fox".
