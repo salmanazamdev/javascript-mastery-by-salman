@@ -56,6 +56,9 @@ console.log(joinedString);
 
 
 // Q10: Check if the string "The quick brown fox jumps over the lazy dog" includes the word "fox".
+let str5 = "The quick brown fox jumps over the lazy dog";
+let includesFox = str5.includes("fox");
+console.log(includesFox);
 
 
 // Q11: Use indexOf() to find where the word "quick" starts.
