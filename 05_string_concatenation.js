@@ -38,6 +38,10 @@ console.log(introduction);
 
 
 // Q6: Use + operator to join "React", "Native" and "is awesome" into one sentence.
+let react = "React";
+let native = "Native";
+let combined = react + " " + native + " is awesome.";
+console.log(combined);
 
 
 // Q7: Create a sentence using template literals with a number variable: `You have 5 new messages.`
