@@ -51,6 +51,9 @@ console.log(messageSentence);
 
 
 // Q8: Make a sentence with a boolean value like: `Dark mode is true`
+let darkMode = true;
+let darkModeSentence = `Dark mode is ${darkMode}.`;
+console.log(darkModeSentence);
 
 
 // Q9: Combine a string and a number using +, like "Total score: 95"
