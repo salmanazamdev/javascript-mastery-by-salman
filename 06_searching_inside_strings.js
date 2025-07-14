@@ -20,6 +20,9 @@ console.log(trimmedStr);
 
 
 // Q4: Remove only the leading spaces from "   Hello World   ".
+// let str2 = "   Hello World   "; (already declared above)
+let leadingTrimmedStr = str2.trimStart();
+console.log(leadingTrimmedStr); 
 
 
 // Q5: Remove only the trailing spaces from "   Hello World   ".
