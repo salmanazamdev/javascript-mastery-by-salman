@@ -8,6 +8,9 @@ console.log(lowerCaseStr);
 
 
 // Q2: Convert the same string to all uppercase.
+// let str1 = "JavaScript Programming"; (already declared above)
+let upperCaseStr = str1.toUpperCase();
+console.log(upperCaseStr);
 
 
 // Q3: Trim all white spaces from both ends of the string "   Hello World   ".
