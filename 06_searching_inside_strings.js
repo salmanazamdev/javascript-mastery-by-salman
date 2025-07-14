@@ -26,6 +26,9 @@ console.log(leadingTrimmedStr);
 
 
 // Q5: Remove only the trailing spaces from "   Hello World   ".
+// let str2 = "   Hello World   "; (already declared above)
+let trailingTrimmedStr = str2.trimEnd();
+console.log(trailingTrimmedStr);
 
 
 // Q6: Extract the word "JavaScript" from the string using slice() or substring().
