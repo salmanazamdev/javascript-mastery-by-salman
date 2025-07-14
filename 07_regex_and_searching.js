@@ -39,7 +39,7 @@ console.log(foxPosition);
 
 // Q7: Extract the email from: "Contact: john@example.com or call 123-456-7890" using regex.
 let contactStr = "Contact: john@example.com or call 123-456-7890";
-let emailRegex = /[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}/;
+let emailRegex = /[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}/; // Regex works in a way that it matches a standard email format
 let email = contactStr.match(emailRegex)[0];
 console.log(email);
 
@@ -50,7 +50,10 @@ let phoneNumber = contactStr.match(phoneRegex)[0]; // contactStr already declare
 console.log(phoneNumber);
 
 
-// Q9: Replace all numbers in the string with "XXX" using regex.
+// Q9: Replace all numbers in the string with "AAA" using regex.
+// contactStr already declared above
+let replacedNumbers = contactStr.replace(/\d+/g, "AAA");
+console.log(replacedNumbers);
 
 
 // Q10: Split the string "The quick brown fox" by any amount of whitespace using regex.
