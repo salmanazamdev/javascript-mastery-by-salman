@@ -32,6 +32,9 @@ console.log(endsWithDog);
 
 
 // Q6: Use search() with a regex to find the position of "fox", case-insensitive.
+let foxRegex = /fox/i;
+let foxPosition = str1.search(foxRegex);
+console.log(foxPosition);
 
 
 // Q7: Extract the email from: "Contact: john@example.com or call 123-456-7890" using regex.
