@@ -44,6 +44,9 @@ console.log(programmingWord);
 
 
 // Q8: Split "JavaScript Programming" into an array of words.
+let str4 = "JavaScript Programming";
+let wordsArray = str4.split(" ");
+console.log(wordsArray);
 
 
 // Q9: Join that array into a single string separated by hyphens.
