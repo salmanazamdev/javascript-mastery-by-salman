@@ -4,11 +4,13 @@
 // Q1: Declare firstName = "John" and lastName = "Doe". Concatenate them using the + operator to get "John Doe".
 let firstName = "John";
 let lastName = "Doe";
-let fullName = firstName + " " + lastName; 
+let fullName = firstName + " " + lastName;
 console.log(fullName);
 
 
 // Q2: Now use template literals to combine firstName and lastName with a space in between.
+let fullNameTemplate = `${firstName} ${lastName}`;
+console.log(fullNameTemplate);
 
 
 // Q3: Create a greeting like "Hello, John Doe! Welcome." using template literals.
