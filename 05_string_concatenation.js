@@ -31,6 +31,10 @@ console.log(learningSentence);
 // Q5: Create a string that says:
 // My name is Salman.
 // I love coding.
+let name = "Salman";
+let loveCoding = "I love coding.";
+let introduction = `My name is ${name}.\n${loveCoding}`;
+console.log(introduction);
 
 
 // Q6: Use + operator to join "React", "Native" and "is awesome" into one sentence.
