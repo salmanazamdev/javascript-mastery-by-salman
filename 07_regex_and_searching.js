@@ -26,6 +26,9 @@ console.log(startsWithThe);
 
 
 // Q5: Check if the string ends with the word "dog".
+// let str1 = "The quick brown fox jumps over the lazy dog"; (already declared above)
+let endsWithDog = str1.endsWith("dog");
+console.log(endsWithDog);
 
 
 // Q6: Use search() with a regex to find the position of "fox", case-insensitive.
