@@ -1,6 +1,12 @@
 // Tagged Template Literals Practice
 
 // 1. Create a tag function `boldIt` that wraps all values with <b></b>
+function boldIt(strings, ...values) {
+    return strings.reduce((result, str, i) => {
+        return result + str + (values[i] ? `<b>${values[i]}</b>` : '');
+    }, '');
+}
+
 
 // 2. Make a tag function `warnEmpty` that replaces missing (null or '') values with "[Missing]"
 
