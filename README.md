@@ -16,7 +16,7 @@ Each file you see here represents a section I’ve learned, broken down with rea
 
 > No folders yet : just simple, clean `.js` files for now:
 
-| File | Topics Covered |
+| File | Topics Covered | (Just as an example)
 |------|----------------|
 | `01-variables.js` | `let`, `const`, reassigning, types |
 | `02-data-types.js` | `string`, `number`, `boolean`, `null`, `undefined`, `typeof` |
