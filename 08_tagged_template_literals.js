@@ -1,5 +1,6 @@
 // Tagged Template Literals Practice
 
+
 // 1. Create a tag function `boldIt` that wraps all values with <b></b>
 function boldIt(strings, ...values) {
     return strings.reduce((result, str, i) => {
@@ -9,6 +10,13 @@ function boldIt(strings, ...values) {
 
 
 // 2. Make a tag function `warnEmpty` that replaces missing (null or '') values with "[Missing]"
+function warnEmpty(strings, ...values) {
+    return strings.reduce((result, str, i) => {
+        const value = values[i];
+        const displayValue = (value === null || value === '') ? '[Missing]' : value;
+        return result + str + displayValue;
+    }, '');
+}
 
 // 3. Write a tag function `highlightPositive` that highlights numbers > 0 with green color
 
