@@ -47,6 +47,13 @@ function safeHtml(strings, ...values) {
 }
 
 // 6. Build a `highlight` tag that wraps values with <mark></mark> (already practiced, repeat for confidence)
+function highlight(strings, ...values) {
+    return strings.reduce((result, str, i) => {
+        const value = values[i];
+        const highlightedValue = `<mark>${value}</mark>`;
+        return result + str + highlightedValue;
+    }, '');
+}
 
 // 7. Create a `currency` tag that converts numbers into ₹ format (e.g. ₹1,000.00)
 
