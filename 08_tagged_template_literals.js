@@ -65,6 +65,13 @@ function currency(strings, ...values) {
 }
 
 // 8. Write a tag that checks if any value is a number above 100 — if yes, append a 🚀 emoji
+function checkAboveHundred(strings, ...values) {
+    return strings.reduce((result, str, i) => {
+        const value = values[i];
+        const emoji = (typeof value === 'number' && value > 100) ? ' 🚀' : '';
+        return result + str + value + emoji;
+    }, '');
+}
 
 // 9. Write a tag function that formats the output like a markdown string: Hello **John**!
 
