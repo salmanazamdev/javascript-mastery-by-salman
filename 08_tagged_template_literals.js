@@ -28,6 +28,14 @@ function highlightPositive(strings, ...values) {  // ...values means it can take
 }
 
 // 4. Create a tag `shout` that turns all inserted values to UPPERCASE
+function shout(strings, ...values) {
+    return strings.reduce((result, str, i) => {
+        const value = values[i];
+        const uppercasedValue = (typeof value === 'string') ? value.toUpperCase() : value;
+        return result + str + uppercasedValue;
+    }, '');
+}
+
 
 // 5. Use a tag function `safeHtml` to escape <, >, and & in user input
 
