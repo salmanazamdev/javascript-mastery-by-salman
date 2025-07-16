@@ -55,7 +55,14 @@ function highlight(strings, ...values) {
     }, '');
 }
 
-// 7. Create a `currency` tag that converts numbers into ₹ format (e.g. ₹1,000.00)
+// 7. Create a `currency` tag that converts numbers into Pakistani Rupee format (e.g. Rs/- 1,000.00)
+function currency(strings, ...values) {
+    return strings.reduce((result, str, i) => {
+        const value = values[i];
+        const formattedValue = (typeof value === 'number') ? `Rs/- ${value.toLocaleString('en-PK', { minimumFractionDigits: 2 })}` : value;
+        return result + str + formattedValue;
+    }, '');
+}
 
 // 8. Write a tag that checks if any value is a number above 100 — if yes, append a 🚀 emoji
 
