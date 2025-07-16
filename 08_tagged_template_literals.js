@@ -19,6 +19,13 @@ function warnEmpty(strings, ...values) {
 }
 
 // 3. Write a tag function `highlightPositive` that highlights numbers > 0 with green color
+function highlightPositive(strings, ...values) {  // ...values means it can take any number of values. 
+    return strings.reduce((result, str, i) => {
+        const value = values[i];
+        const highlightedValue = (typeof value === 'number' && value > 0) ? `<span style="color: green;">${value}</span>` : value;
+        return result + str + highlightedValue;
+    }, '');
+}
 
 // 4. Create a tag `shout` that turns all inserted values to UPPERCASE
 
