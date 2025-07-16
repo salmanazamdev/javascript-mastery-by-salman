@@ -60,8 +60,3 @@ let str5 = "The quick brown fox jumps over the lazy dog";
 let includesFox = str5.includes("fox");
 console.log(includesFox);
 
-
-// Q11: Use indexOf() to find where the word "quick" starts.
-
-
-// Q12: Use la

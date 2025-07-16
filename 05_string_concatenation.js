@@ -46,7 +46,7 @@ console.log(combined);
 
 // Q7: Create a sentence using template literals with a number variable : `You have 5 new messages.`
 let newMessages = 5;
-let messageSentence = `You have ${newMessages} new messages.`;
+let messageSentence = `You have ${newMessages} new messages.`; // we use template literals intead o simple string concatenation because it allows us to easily embed variables and expressions within a string
 console.log(messageSentence);
 
 
