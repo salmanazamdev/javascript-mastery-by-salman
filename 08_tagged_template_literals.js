@@ -38,6 +38,13 @@ function shout(strings, ...values) {
 
 
 // 5. Use a tag function `safeHtml` to escape <, >, and & in user input
+function safeHtml(strings, ...values) {
+    return strings.reduce((result, str, i) => {
+        const value = values[i];
+        const escapedValue = (typeof value === 'string') ? value.replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/&/g, '&amp;') : value;
+        return result + str + escapedValue;
+    }, '');
+}
 
 // 6. Build a `highlight` tag that wraps values with <mark></mark> (already practiced, repeat for confidence)
 
