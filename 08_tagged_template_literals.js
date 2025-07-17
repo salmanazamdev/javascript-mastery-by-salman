@@ -18,6 +18,7 @@ function warnEmpty(strings, ...values) {
     }, '');
 }
 
+
 // 3. Write a tag function `highlightPositive` that highlights numbers > 0 with green color
 function highlightPositive(strings, ...values) {  // ...values means it can take any number of values. 
     return strings.reduce((result, str, i) => {
@@ -26,6 +27,7 @@ function highlightPositive(strings, ...values) {  // ...values means it can take
         return result + str + highlightedValue;
     }, '');
 }
+
 
 // 4. Create a tag `shout` that turns all inserted values to UPPERCASE
 function shout(strings, ...values) {
@@ -46,6 +48,7 @@ function safeHtml(strings, ...values) {
     }, '');
 }
 
+
 // 6. Build a `highlight` tag that wraps values with <mark></mark> (already practiced, repeat for confidence)
 function highlight(strings, ...values) {
     return strings.reduce((result, str, i) => {
@@ -54,6 +57,7 @@ function highlight(strings, ...values) {
         return result + str + highlightedValue;
     }, '');
 }
+
 
 // 7. Create a `currency` tag that converts numbers into Pakistani Rupee format (e.g. Rs/- 1,000.00)
 function currency(strings, ...values) {
@@ -64,6 +68,7 @@ function currency(strings, ...values) {
     }, '');
 }
 
+
 // 8. Write a tag that checks if any value is a number above 100 — if yes, append a 🚀 emoji
 function checkAboveHundred(strings, ...values) {
     return strings.reduce((result, str, i) => {
@@ -73,6 +78,24 @@ function checkAboveHundred(strings, ...values) {
     }, '');
 }
 
-// 9. Write a tag function that formats the output like a markdown string: Helo **John**!
+// 9. Write a tag function that formats the output like a markdown string: Hello **John**!
+function markdown(strings, ...values) {
+    return strings.reduce((result, str, i) => {
+        const value = values[i];
+        const formattedValue = (typeof value === 'string') ? `**${value}**` : value;
+        return result + str + formattedValue;
+    }, '');
+}
 
 // 10. Combine 2 values inside a tag: `sumTag` should return the total if two numbers are inserted
+function sumTag(strings, ...values) {
+    return strings.reduce((result, str, i) => {
+        const value = values[i];
+        if (typeof value === 'number') {
+            result += str + value;
+        } else if (i === 0) {
+            result += str; // For the first string part
+        }
+        return result;
+    }, '') + (values.reduce((sum, val) => typeof val === 'number' ? sum + val : sum, 0));
+}
