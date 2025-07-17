@@ -57,4 +57,9 @@ console.log(customEmoji);
 const lastChar = "💖😊🔥";
 console.log(lastChar.codePointAt(lastChar.length - 1).toString(16));
 
+
 // 10. Split a string with multiple Unicode symbols using `.split('')` and count how many visible characters are shown
+const splitString = "💖😊🔥✨🌈";
+const splitArray = splitString.split('');
+const visibleCount = splitArray.filter(char => char.codePointAt(0) < 0x1f900).length;
+console.log(visibleCount);
