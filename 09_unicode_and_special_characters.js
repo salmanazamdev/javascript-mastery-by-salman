@@ -34,7 +34,9 @@ console.log(normalizedCafe === cafeWithAccent); // true
 
 
 // 6. Create an Urdu string, log the original text, and check its length
-
+const urduString = "سلام";
+console.log(urduString);
+console.log(urduString.length);
 
 
 // 7. Create a string with newline, tab, and emoji — explain output in comments
