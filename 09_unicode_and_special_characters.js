@@ -52,8 +52,9 @@ console.log(mixedString);
 const customEmoji = String.fromCodePoint(0x1f496) + String.fromCodePoint(0x1f60a);
 console.log(customEmoji);
 
+
 // 9. Get the last character’s code point from "💖😊🔥" and print it
-
-
+const lastChar = "💖😊🔥";
+console.log(lastChar.codePointAt(lastChar.length - 1).toString(16));
 
 // 10. Split a string with multiple Unicode symbols using `.split('')` and count how many visible characters are shown
