@@ -16,7 +16,8 @@ console.log(unicodeHello);
 
 
 // 3. Print a multi-line string using \n and include a tab (\t) and carriage return (\r)
-
+const multiLineString = "Line 1\nLine 2\twith tab\rLine 3";
+console.log(multiLineString);
 
 
 // 4. Write a sentence that includes ©, ®, ™ and then remove them using .replace()
