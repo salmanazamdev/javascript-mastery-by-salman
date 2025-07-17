@@ -27,7 +27,10 @@ console.log(cleaned);
 
 
 // 5. Normalize "café" and check if it matches "café" using .normalize("NFC")
-
+const cafe = "café";
+const cafeWithAccent = "café"; // 'e' with combining acute accent
+const normalizedCafe = cafe.normalize("NFC");
+console.log(normalizedCafe === cafeWithAccent); // true
 
 
 // 6. Create an Urdu string, log the original text, and check its length
