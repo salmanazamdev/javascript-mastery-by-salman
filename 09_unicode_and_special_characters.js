@@ -40,7 +40,12 @@ console.log(urduString.length);
 
 
 // 7. Create a string with newline, tab, and emoji — explain output in comments
+const mixedString = "Line 1\nLine 2\twith tab💖";
+console.log(mixedString);
 
+// Explanation:
+// The output will show the text with a newline between "Line 1" and "Line 2",
+// a tab space before "with tab", and the emoji 💖 at the end of the string.
 
 
 // 8. Use `String.fromCodePoint()` to create a custom emoji string (codepoint-based)
