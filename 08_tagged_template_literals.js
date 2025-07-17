@@ -73,6 +73,6 @@ function checkAboveHundred(strings, ...values) {
     }, '');
 }
 
-// 9. Write a tag function that formats the output like a markdown string: Hello **John**!
+// 9. Write a tag function that formats the output like a markdown string: Helo **John**!
 
 // 10. Combine 2 values inside a tag: `sumTag` should return the total if two numbers are inserted

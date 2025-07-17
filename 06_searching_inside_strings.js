@@ -59,4 +59,3 @@ console.log(joinedString);
 let str5 = "The quick brown fox jumps over the lazy dog";
 let includesFox = str5.includes("fox");
 console.log(includesFox);
-
