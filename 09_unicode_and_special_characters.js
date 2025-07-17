@@ -49,8 +49,8 @@ console.log(mixedString);
 
 
 // 8. Use `String.fromCodePoint()` to create a custom emoji string (codepoint-based)
-
-
+const customEmoji = String.fromCodePoint(0x1f496) + String.fromCodePoint(0x1f60a);
+console.log(customEmoji);
 
 // 9. Get the last character’s code point from "💖😊🔥" and print it
 
