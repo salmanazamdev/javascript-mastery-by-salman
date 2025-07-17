@@ -21,7 +21,9 @@ console.log(multiLineString);
 
 
 // 4. Write a sentence that includes ©, ®, ™ and then remove them using .replace()
-
+const sentence = "This is a test © 2023, with some ® and ™ symbols.";
+const cleaned = sentence.replace(/©|®|™/g, '');
+console.log(cleaned);
 
 
 // 5. Normalize "café" and check if it matches "café" using .normalize("NFC")
