@@ -21,12 +21,13 @@ console.log(fruits.length);
 let colors = ["red", "blue", "green", "yellow"];
 console.log(colors.at(-2));
 
+
 // 5. Declare a mixed array containing a number, a string, a boolean, and null. Log the entire array.
+let mixedArray = [42, "Hello", true, null];
+console.log(mixedArray);
 
 
-
-// 6. Access the value "JavaScript" from the following array:
-//let devStack = ["HTML", "CSS", "JavaScript", "React"];
+// 6. Access the value "JavaScript" from the following array: (let devStack = ["HTML", "CSS", "JavaScript", "React"];)
 
 
 
