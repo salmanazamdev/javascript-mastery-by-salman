@@ -32,9 +32,12 @@ let devStack = ["HTML", "CSS", "JavaScript", "React"];
 console.log(devStack[2]);
 
 
-// 7. Create an empty array and push three values into it using .push()
-
-
+// 7. Create an empty array and push three values into it using .push().
+let newArray = [];
+newArray.push("Value 1");
+newArray.push("Value 2");
+newArray.push("Value 3");
+console.log(newArray);
 
 // 8. Remove the last element from an array using .pop() and print the updated array.
 
