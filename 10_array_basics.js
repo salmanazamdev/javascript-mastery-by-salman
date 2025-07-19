@@ -2,7 +2,8 @@
 
 
 // 1. Create an array of 5 programming languages and print the 3rd one.
-
+let programmingLanguages = ["JavaScript", "Python", "Java", "C++", "Ruby"];
+console.log(programmingLanguages[2]);
 
 
 // 2. Create an array of numbers. Print the first and last number using array indexes.
