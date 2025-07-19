@@ -13,8 +13,8 @@ console.log(numbers[numbers.length - 1]);
 
 
 // 3. Use the .length property to print how many fruits are in the array ["mango", "apple", "banana"].
-
-
+let fruits = ["mango", "apple", "banana"];
+console.log(fruits.length);
 
 // 4. Use .at() to access the second last item from the array ["red", "blue", "green", "yellow"].
 
