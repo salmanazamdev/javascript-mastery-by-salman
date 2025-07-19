@@ -16,9 +16,10 @@ console.log(numbers[numbers.length - 1]);
 let fruits = ["mango", "apple", "banana"];
 console.log(fruits.length);
 
+
 // 4. Use .at() to access the second last item from the array ["red", "blue", "green", "yellow"].
-
-
+let colors = ["red", "blue", "green", "yellow"];
+console.log(colors.at(-2));
 
 // 5. Declare a mixed array containing a number, a string, a boolean, and null. Log the entire array.
 
