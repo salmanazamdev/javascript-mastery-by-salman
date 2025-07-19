@@ -7,7 +7,9 @@ console.log(programmingLanguages[2]);
 
 
 // 2. Create an array of numbers. Print the first and last number using array indexes.
-
+let numbers = [10, 20, 30, 40, 50];
+console.log(numbers[0]);
+console.log(numbers[numbers.length - 1]);
 
 
 // 3. Use the .length property to print how many fruits are in the array ["mango", "apple", "banana"].
