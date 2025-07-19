@@ -28,7 +28,8 @@ console.log(mixedArray);
 
 
 // 6. Access the value "JavaScript" from the following array: (let devStack = ["HTML", "CSS", "JavaScript", "React"];)
-
+let devStack = ["HTML", "CSS", "JavaScript", "React"];
+console.log(devStack[2]);
 
 
 // 7. Create an empty array and push three values into it using .push()
