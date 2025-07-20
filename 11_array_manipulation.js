@@ -25,6 +25,9 @@ vehicles.splice(1, 1);
 console.log(vehicles);
 
 // 6. Use splice() to insert "pen" and "pencil" at index 1 in an array ["book", "eraser", "marker"].
+let stationery = ["book", "eraser", "marker"];
+stationery.splice(1, 0, "pen", "pencil");
+console.log(stationery);
 
 // 7. Create an empty array and use push() to add 3 elements of your choice.
 
