@@ -48,3 +48,7 @@ numbers9.pop();
 console.log(numbers9);
 
 // 10. Add "first" at the beginning and "last" at the end of ["middle"] using unshift() and push().
+let middleArray = ["middle"];
+middleArray.unshift("first");
+middleArray.push("last");
+console.log(middleArray);
