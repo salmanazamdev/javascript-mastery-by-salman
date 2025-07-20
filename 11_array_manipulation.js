@@ -37,6 +37,9 @@ emptyArray.push("Element 3");
 console.log(emptyArray);
 
 // 8. Create an array of 5 fruit names. Remove 2 from the middle using splice().
+let fruits = ["apple", "banana", "cherry", "date", "elderberry"];
+fruits.splice(2, 2);
+console.log(fruits);
 
 // 9. Create an array and use pop() twice to remove the last two elements.
 
