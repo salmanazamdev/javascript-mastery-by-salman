@@ -42,5 +42,9 @@ fruits.splice(2, 2);
 console.log(fruits);
 
 // 9. Create an array and use pop() twice to remove the last two elements.
+let numbers9 = [1, 2, 3, 4, 5];
+numbers9.pop();
+numbers9.pop();
+console.log(numbers9);
 
 // 10. Add "first" at the beginning and "last" at the end of ["middle"] using unshift() and push().
