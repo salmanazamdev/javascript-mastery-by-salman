@@ -11,6 +11,8 @@ numbers.unshift(5);
 console.log(numbers);
 
 // 3. Remove the last element from an array using pop() and log the updated array.
+numbers.pop();
+console.log(numbers);
 
 // 4. Remove the first element from ["a", "b", "c", "d"] using shift() and print it.
 
