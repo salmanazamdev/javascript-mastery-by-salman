@@ -30,6 +30,11 @@ stationery.splice(1, 0, "pen", "pencil");
 console.log(stationery);
 
 // 7. Create an empty array and use push() to add 3 elements of your choice.
+let emptyArray = [];
+emptyArray.push("Element 1");
+emptyArray.push("Element 2");
+emptyArray.push("Element 3");
+console.log(emptyArray);
 
 // 8. Create an array of 5 fruit names. Remove 2 from the middle using splice().
 
