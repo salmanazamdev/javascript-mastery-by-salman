@@ -40,7 +40,8 @@ newArray.push("Value 3");
 console.log(newArray);
 
 // 8. Remove the last element from an array using .pop() and print the updated array.
-
+newArray.pop();
+console.log(newArray);
 
 
 // 9. Create an array of your 3 favorite sports. Replace the second sport with "Basketball".
