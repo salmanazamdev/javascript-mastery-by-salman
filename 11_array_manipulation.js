@@ -15,6 +15,9 @@ numbers.pop();
 console.log(numbers);
 
 // 4. Remove the first element from ["a", "b", "c", "d"] using shift() and print it.
+let letters = ["a", "b", "c", "d"];
+let shiftedLetter = letters.shift();
+console.log(shiftedLetter);
 
 // 5. Use splice() to remove the second item from ["car", "bus", "train", "bike"].
 
