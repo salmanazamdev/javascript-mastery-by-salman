@@ -6,6 +6,9 @@ colors.push("purple");
 console.log(colors);
 
 // 2. Create an array of numbers [10, 20, 30]. Add 5 at the beginning using unshift().
+let numbers = [10, 20, 30];
+numbers.unshift(5);
+console.log(numbers);
 
 // 3. Remove the last element from an array using pop() and log the updated array.
 
