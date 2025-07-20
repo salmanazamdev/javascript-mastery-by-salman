@@ -1,6 +1,9 @@
 // Array Manipulation Tasks
 
 // 1. Create an array of colors and add "purple" to the end using push().
+let colors = ["red", "blue", "green"];
+colors.push("purple");
+console.log(colors);
 
 // 2. Create an array of numbers [10, 20, 30]. Add 5 at the beginning using unshift().
 
