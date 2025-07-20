@@ -20,6 +20,9 @@ let shiftedLetter = letters.shift();
 console.log(shiftedLetter);
 
 // 5. Use splice() to remove the second item from ["car", "bus", "train", "bike"].
+let vehicles = ["car", "bus", "train", "bike"];
+vehicles.splice(1, 1);
+console.log(vehicles);
 
 // 6. Use splice() to insert "pen" and "pencil" at index 1 in an array ["book", "eraser", "marker"].
 
