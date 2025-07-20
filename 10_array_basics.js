@@ -45,7 +45,9 @@ console.log(newArray);
 
 
 // 9. Create an array of your 3 favorite sports. Replace the second sport with "Basketball".
-
+let favoriteSports = ["Soccer", "Tennis", "Baseball"];
+favoriteSports[1] = "Basketball";
+console.log(favoriteSports);
 
 
 // 10. Create an array of city names and log the length of the array and the last city using .at(-1).
