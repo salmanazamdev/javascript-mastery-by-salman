@@ -51,3 +51,6 @@ console.log(favoriteSports);
 
 
 // 10. Create an array of city names and log the length of the array and the last city using .at(-1).
+let cities = ["New York", "Los Angeles", "Chicago"];
+console.log(cities.length);
+console.log(cities.at(-1));
